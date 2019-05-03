@@ -130,7 +130,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
     private void endGame(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-
+        //Boite de dialogue
         builder.setTitle("Well done!")
                 .setMessage("Your score is " + mScore)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
