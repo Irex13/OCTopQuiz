@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.GameActivity">
+
+
+    <TextView
+        android:id="@+id/activity_game_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textColor="#9C27B0"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Question?"
+        />
+    <Button
+        android:id="@+id/activity_game_a1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Answer1"
+        />
+
+    <Button
+        android:id="@+id/activity_game_a2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:text="Answer2"
+        />
+
+    <Button
+        android:id="@+id/activity_game_a3_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:text="Answer3"
+        />
+
+    <Button
+        android:id="@+id/activity_game_a4_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:text="Answer4"
+        />
+
+</LinearLayout>
